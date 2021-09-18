@@ -11,10 +11,10 @@ public class Main {
        Customer customer = new Customer();
        
        //set customer's data to object here
-       Customer.firstName = firstName;
-       Customer.secondName = secondName;
-       Customer.age = age;
-       Customer.roomNumber = roomNumber;
+       customer.firstName = firstName;
+       customer.secondName = secondName;
+       customer.age = age;
+       customer.roomNumber = roomNumber;
       
        customer.saveCustomerInfo();
    }
@@ -22,10 +22,10 @@ public class Main {
 
 class Customer {
    //add all necessary attributes here
-        static  String firstName;
-       static String secondName;
-       static int age;
-       static int roomNumber;
+        String firstName;
+        String secondName;
+        int age;
+        int roomNumber;
 
   
    public void saveCustomerInfo() {
